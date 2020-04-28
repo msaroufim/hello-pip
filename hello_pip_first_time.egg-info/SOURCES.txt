@@ -1,0 +1,7 @@
+README.md
+hello-pip-first-time
+setup.py
+hello_pip_first_time.egg-info/PKG-INFO
+hello_pip_first_time.egg-info/SOURCES.txt
+hello_pip_first_time.egg-info/dependency_links.txt
+hello_pip_first_time.egg-info/top_level.txt

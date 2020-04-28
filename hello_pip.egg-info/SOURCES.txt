@@ -1,7 +1,0 @@
-README.md
-hello-pip
-setup.py
-hello_pip.egg-info/PKG-INFO
-hello_pip.egg-info/SOURCES.txt
-hello_pip.egg-info/dependency_links.txt
-hello_pip.egg-info/top_level.txt

@@ -6,9 +6,9 @@ with open("README.md", "r") as fh:
 
 
 setuptools.setup(
-     name='hello-pip',  
+     name='hello-pip-first-time',  
      version='0.1',
-     scripts=['hello-pip'] ,
+     scripts=['hello-pip-first-time'] ,
      author="Mark Saroufim",
      author_email="marksaroufim@gmail.com",
      description="How to submit a pip package",
