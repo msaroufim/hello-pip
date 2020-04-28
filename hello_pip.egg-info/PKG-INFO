@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: hello-pip
+Version: 0.1
+Summary: How to submit a pip package
+Home-page: https://github.com/msaroufim/hello-pip
+Author: Mark Saroufim
+Author-email: marksaroufim@gmail.com
+License: UNKNOWN
+Description: # Hello pip
+        
+        Before you do anything, make sure you create an account oon pypi.org. It's important to constantly share your code and ideas with others as it'll imrpove the quality over time. It's very easy to convince yourself that some piece of code is useful and well written if noone is using it.
+        
+        ## Installing the right packages
+        
+        Before you get started I'll assume you've went ahead and downloaded the Python Anaconda distribution
+        
+        
+        Then you want to go
+        
+        ```
+        conda create -n hello-pip
+        conda install setuptools wheel twine tqdm
+        ```
+        
+        Then setup your directories in the same way as this repo
+        * README: Is this document, your chance to pitch your product. Most people will skim this before they read the rest of your code so take particular care in writing it
+        * LICENSE: Pick whatever works for your usecase - check out tldrlegal.com if you're not sure what to pick
+        * setup.py: Will contain all your package metadata
+        * hello.pip: is an executable we need to make runnable by typing ```chmod +x hello-pip```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
